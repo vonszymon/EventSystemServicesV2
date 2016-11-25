@@ -1,0 +1,10 @@
+*target*
+*.class
+
+# eclipse specific git ignore
+bin/**
+build/**
+local.properties
+
+# External tool builders
+.externalToolBuilders/
