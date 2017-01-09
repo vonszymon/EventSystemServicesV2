@@ -27,8 +27,7 @@ public class EventExtractor implements ResultSetExtractor<Event> {
 			e.printStackTrace();
 		}
 		event.setContent(resultSet.getString(4));
-		event.setHashtag(resultSet.getString(5));
-		event.setNumOfComments(Integer.parseInt(resultSet.getString(6)));
+		event.setNumOfComments(Integer.parseInt(resultSet.getString(5)));
 		
 		return event;
 	}
